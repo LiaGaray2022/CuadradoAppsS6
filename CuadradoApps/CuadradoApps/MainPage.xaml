@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CuadradoApps.ViewModels"
+             x:Class="CuadradoApps.Views.MainPage">
+    <ContentPage.BindingContext>
+        <local:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido a mi app del cuadrado" />
+
+            <Entry Placeholder="Lado" Keyboard="Numeric" Text="{Binding Lado}" />
+            <Entry Placeholder="Lado 2" Keyboard="Numeric" Text="{Binding Lado2}" />
+
+            <Button Text="Calcular" Command="{Binding CalcularCommand}" />
+
+            <Label Text="{Binding Resultado}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

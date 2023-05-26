@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuadradoApps.Android", "CuadradoApps\CuadradoApps.Android\CuadradoApps.Android.csproj", "{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuadradoApps", "CuadradoApps\CuadradoApps\CuadradoApps.csproj", "{301DAB10-27FE-49D9-A90A-CE4067D70D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E050E16A-4C02-40B6-86FA-9A3CD7B668F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{301DAB10-27FE-49D9-A90A-CE4067D70D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301DAB10-27FE-49D9-A90A-CE4067D70D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301DAB10-27FE-49D9-A90A-CE4067D70D55}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{301DAB10-27FE-49D9-A90A-CE4067D70D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301DAB10-27FE-49D9-A90A-CE4067D70D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301DAB10-27FE-49D9-A90A-CE4067D70D55}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A54F95BD-548A-48E9-B916-89757678F5CB}
+	EndGlobalSection
+EndGlobal
